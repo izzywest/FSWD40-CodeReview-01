@@ -1,19 +1,20 @@
-* {
+body {
     font-family: "helvetica";
-    background-color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px auto;
 }
 
 
-h3 {
+/* i did not specified h3 with a selector because in this case we only have one h3 */
+
+h3 { 
     font-family: helvetica;
     color: #fff;
-    font-weight: normal;
+    font-weight: lighter;
     display: inline-table;
-    letter-spacing: 2px;
-    position: absoulte;
-    top: 30px;
+    letter-spacing: 1px;
+    position: absolute;
 }
 
 li {
@@ -24,40 +25,62 @@ li {
 }
 
 li a {
+    display: inline;
     text-decoration: none;
     color: #fff;
-	   background: #A4A4A4;
     font-size: 18px;
     text-align: center;
-    padding: 10px 10px;
-    display: inline;
+
+    padding: 10px 10px 10px 10px;
 }
 
-footer {
-	text-decoration: none;
-	color: #fff;
+td {
+    font-size: 18px;
+}
+
+figcaption {
+	font-weight: bold
+}
+
+#footer {
+    text-decoration: none;
+    color: #fff;
     background: #FA5858;
     text-align: center;
-    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
-#logo {
+span {
+    text-align: center;
+}
+
+.heading {
     background: #FA5858;
-    display: inline;
-}
-
-
-#pictures {
-    padding-top: 5px;
+    height: 80px;
+    padding-top: 20px;
 }
 
 .navbar {
     list-style-type: none;
     border-style: none;
     margin-top: 2px;
+    padding-bottom: 5px;
     margin-bottom: 20px;
-    padding-left: 10px;
-    overflow: hidden;
     background-color: #A4A4A4;
-    width: 100%;
+    overflow: hidden;
+    height: 40px;
+    color: #fff;
+}
+
+/* tdright and tdleft classes are for the space in the middle of the table */
+
+.tdright { 
+    padding-left: 10px;
+}
+
+.tdleft {
+    padding-right: 10px;
 }
